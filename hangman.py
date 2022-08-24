@@ -4,6 +4,9 @@ import string
 from words import words
 
 
+# created by mopheshi
+
+
 def get_valid_word(words):
     word = random.choice(words)
     while '-' in word or ' ' in word:
